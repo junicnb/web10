@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+<body>
+<h3>Welcome First work</h3>
+
+
+<h2>英雄联盟(本地)</h2>
+
+<img width="50%" src ="lol.jpg">
+
+<h2>亚索(本地)</h2>
+<img width="50%" src="yasuo.jpg">
+<h2>凯影(远程)</h2>
+<img width="50%" src="https://tse2-mm.cn.bing.net/th/id/OIP-C.ILV8FUO05x3Bahi4uUknWQHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7"/>
+<h1>Faker</h1>
+<h3>lol king</h3>
+<a href="1.html#abc">who is Faker</a>
+<a href="https://cn.bing.com/search?q=faker&form=ANNTH1&refig=18b725a2016f48a4b36edc84eef6d216">经典的百度一下</a>
+
+<h2>My favorite hero</h2>
+<ol>
+    <li>厄斐琉斯</li>
+    <li>挖掘机</li>
+    <li>卡莎</li>
+  </ol>
+<h2>lol club</h2>
+  <ul>
+    <li>T1</li>
+    <li>Gen</li>
+    <li>Rng</li>
+    <li>Edg</li>
+    <li>Ig</li>
+    <li>DK</li>
+  </ul>
+<h2>Game</h2>
+<ul>
+  <li>Computer</li>
+  <li>
+    <ul>
+    <li>lol</li>
+    <li>apex</li>
+    <li>cf</li>
+    <li>csgo</li>
+    </ul>
+  </li>
+  <li>stardewvalley</li>
+</ul>
+<h1>我的兴趣爱好</h1>
+
+
+<table border="1">
+<caption>My hobbies</caption>
+<tr>
+  <th>游戏</th>
+  <td>看电视剧</td>
+  <td>刷抖音</td>
+  <td>刷贴吧</td>
+  <td>听歌</td>
+</tr>
+<tr>
+  <th>学习</th>
+  <td>跑步</td>
+  <td>PS</td>
+  <td>看小说</td>
+  <td>敲代码</td>
+</tr>
+</table>
+<h4>对自己的评价</h4>
+<table border="1">
+<tr>
+  <th>姓名</th>
+  <th colspan="2">评价</th>
+</tr>
+<tr>
+  <td>junic</td>
+  <td>interesting</td>
+  <td>outing</td>
+</tr>
+</table>
+
+<h3>游戏评价</h3>
+<table border="1">
+<tr>
+  <th>游戏名</th>
+  <td>LOL</td>
+</tr>
+<tr>
+  <th rowspan="2">评价</th>
+  <td>经典中的经典</td>
+</tr>
+<tr>
+  <td>腾讯不行</td>
+</tr>
+</table>
+<h3>行分组</h3>  
+<table border="1">
+<thead>
+<tr>
+  <td>1111</td>
+  <td>1111</td>
+  <td>1111</td>
+  <td>1111</td>
+</tr> 
+</thead> 
+<tbody> 
+<tr>
+  <td>2222</td>
+  <td>2222</td>
+  <td>2222</td>
+  <td>2222</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+   <td>3333</td>
+   <td>3333</td>
+   <td>3333</td>
+   <td>3333</td>
+</tr>
+</tfoot>
+</table>
+<h3>列分组</h3>  
+<table colgroup span="2" border="1">
+<tr>
+  <td>4444</td>
+  <td>4444</td>
+  <td>5555</td>
+  <td>5555</td>
+</tr>   
+<tr>
+    <td>6666</td>
+    <td>6666</td>
+    <td>6666</td>
+    <td>6666</td>
+  </tr>
+<tr>
+    <td>7777</td>
+    <td>7777</td>
+    <td>7777</td>
+    <td>7777</td>
+</tr>
+<tr>
+    <td>8888</td>
+    <td>8888</td>
+    <td>8888</td>
+    <td>8888</td>
+  </tr>
+</table>
+<h1>表单</h1>
+<form>
+    用户名:<br>
+    <input type="text" name="用户名">
+    <br>
+    昵称:<br>
+    <input type="text" name="昵称">
+    <br>
+    用户密码:<br>
+    <input type="password" name="psw">
+    <br>
+    电话号码:<br>
+    <input type="text" name="电话号码">
+    <br>
+    性别<br>
+    <input type="radio" name="sex" value="male" checked>Male
+    <br>
+    <input type="radio" name="sex" value="female">Female
+    <br>
+   
+    爱好
+    <br>
+    <input type="checkbox" name="hobby" value="lol">lol
+    <br>
+    <input type="checkbox" name="hobby" value="apex">apex
+    <br>
+    <input type="checkbox" name="hobby" value="cf">cf
+    <br>
+    <input type="checkbox" name="hobby" value="csgo">csgo
+    <br>
+    班级
+    <br>
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+    </select>
+    <br><br>
+    <button type="button" onclick="alert('注册成功！')">注册</button>
+    <button type="button" onclick="alert('已发送！')">发送验证码</button>
+</form> 
+</body>
+</html>
